@@ -1,6 +1,6 @@
 {
-  "name": "security-context",
-  "version": "4.0.1-0",
+  "name": "@gmanavarro/security-context",
+  "version": "4.0.1-4",
   "description": "Security Context",
   "main": "js",
   "module": "./dist/module.js",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/w3c-ccg/security-vocab"
+    "url": "https://github.com/gmanavarro/security-vocab"
   },
   "bugs": {
-    "url": "https://github.com/w3c-ccg/security-vocab/issues"
+    "url": "https://github.com/gmanavarro/security-vocab/issues"
   },
   "homepage": "https://w3c-ccg.github.io/security-vocab/",
   "devDependencies": {
@@ -45,5 +45,8 @@
     "lint": "eslint \"**/*.js\" && jsonld-lint contexts",
     "lint:fix": "eslint \"**/*.js\" --fix",
     "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
   }
 }

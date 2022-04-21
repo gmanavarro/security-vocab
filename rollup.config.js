@@ -10,7 +10,7 @@ export default {
     commonjs({
       // explicitly list exports otherwise only have 'default'
       namedExports: {
-        'dist/main.js': ['contexts', 'constants']
+        'dist/main.js': ['contexts', 'constants', 'getContexts']
       }
     })
   ]
